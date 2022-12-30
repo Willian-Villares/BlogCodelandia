@@ -1,0 +1,164 @@
+/* Estilo Para Tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/* Notícias */
+
+.imagem-materia {
+    height: 170px;
+    width: 250px;
+}
+    
+.titulo-noticia {
+    height: 170px;
+    width: 514px;
+}
+
+.titulo-noticia h2 {
+    padding: 10px;
+    margin-top: -25px;
+    line-height: 25px;
+}
+    
+.titulo-noticia p {
+    margin-top: -5px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+/* Footer */
+
+.sobre-mim {
+    padding-right: 50px;
+    color: #FFF;
+}
+    
+.sobre-mim h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+    
+.sobre-mim p {
+    font-size: 18px;
+    line-height: 20px;
+    width: 600px;
+}
+    
+/* Footer - Redes Sociais */
+    
+.sobre-mim P {
+    max-width: 560px;
+}
+    
+.redes-sociais {
+    padding-left: 290px;
+    display: inline-block;
+}
+
+}
+
+/* Estilo Para Smartphone */
+
+@media only screen and (max-width: 787px) {
+
+/* Header */
+
+#header_menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #e7e7e7;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+
+.menu .logo a {
+    font-size: 20px;
+}
+
+.header_menu a img {
+    width: 38px;
+    padding-left: 3px;
+}
+
+/* Notícias */
+
+.notícias h1 {
+    font-size: 30px;
+}
+
+.imagem-materia {
+    width: 300px;
+}
+
+.titulo-noticia {
+    width: 300px;
+    height: 230px;
+    margin-top: 5px;
+    overflow: none;
+}
+
+.titulo-noticia h2 {
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.titulo-noticia p {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+/* Footer */
+
+.sobre-mim p {
+    max-width: 310px;
+}
+
+.redes-sociais {
+    color: #FFF;
+    padding: 30px;
+    margin: -10px;
+    padding-left: 0px;
+}
+
+}
